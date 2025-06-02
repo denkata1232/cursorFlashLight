@@ -35,11 +35,12 @@
             // 
             lblHiddenMessage.AutoSize = true;
             lblHiddenMessage.BackColor = Color.Transparent;
-            lblHiddenMessage.Location = new Point(64, 89);
+            lblHiddenMessage.Font = new Font("Imprint MT Shadow", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblHiddenMessage.Location = new Point(104, 115);
             lblHiddenMessage.Name = "lblHiddenMessage";
-            lblHiddenMessage.Size = new Size(50, 20);
+            lblHiddenMessage.Size = new Size(48, 27);
             lblHiddenMessage.TabIndex = 0;
-            lblHiddenMessage.Text = "label1";
+            lblHiddenMessage.Text = "text";
             // 
             // FormPlayState
             // 
